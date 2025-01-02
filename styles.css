@@ -85,6 +85,7 @@ footer {
   background-color: white;
 }
 
+
 .footer-social {
   position: center;
   bottom: 10px; /* Adjust as needed */
@@ -93,8 +94,8 @@ footer {
 }
 
 .footer-social .facebook-button img {
-  width: 30px; /* Button size */
-  height: 30px;
+  width: 40px; /* Button size */
+  height: 40px;
   border-radius: 50%; /* Makes it circular */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -104,4 +105,3 @@ footer {
   transform: scale(1.1); /* Slight zoom on hover */
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
 }
-
