@@ -94,8 +94,8 @@ footer {
 }
 
 .footer-social .facebook-button img {
-  width: 80px; /* Adjusted for better visibility */
-  height: 80px; /* Matching width for a square */
+  width: 60px; /* Adjusted for better visibility */
+  height: 60px; /* Matching width for a square */
   border-radius: 50%; /* Makes it circular */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
