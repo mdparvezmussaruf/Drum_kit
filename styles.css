@@ -84,3 +84,24 @@ footer {
   margin: 10px;
   background-color: white;
 }
+
+.footer-social {
+  position: center;
+  bottom: 10px; /* Adjust as needed */
+  right: 10px;  /* Adjust as needed */
+  z-index: 1000;
+}
+
+.footer-social .facebook-button img {
+  width: 30px; /* Button size */
+  height: 30px;
+  border-radius: 50%; /* Makes it circular */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.footer-social .facebook-button img:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
+}
+
