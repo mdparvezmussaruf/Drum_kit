@@ -87,15 +87,15 @@ footer {
 
 
 .footer-social {
-  position: center;
-  bottom: 10px; /* Adjust as needed */
-  right: 10px;  /* Adjust as needed */
+  position: fixed; /* Ensures it stays in place */
+  bottom: 10px; /* Adjust distance from the bottom */
+  right: 10px;  /* Adjust distance from the right */
   z-index: 1000;
 }
 
 .footer-social .facebook-button img {
-  width: 10px; /* Button size */
-  height: 10px;
+  width: 40px; /* Adjusted for better visibility */
+  height: 40px; /* Matching width for a square */
   border-radius: 50%; /* Makes it circular */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
